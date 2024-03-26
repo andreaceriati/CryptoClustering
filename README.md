@@ -6,7 +6,7 @@ In the Jupyter notebook you will find the code with the analysis that led to the
 
 **Question 1:** What is the best value for `k`?
 
-<p align='center'> <img src='Images/elbow_curve.png'></p>
+<p align='center'> <img src='Images/elbow_curve.PNG'></p>
 
 **Answer:** The best value for k based on the elbow curve is 4.
 
@@ -16,7 +16,7 @@ In the Jupyter notebook you will find the code with the analysis that led to the
 
 **Question 3:** What is the best value for `k` when using the PCA data?
 
-<p align='center'> <img src='Images/elbow_curve_pca.png'></p>
+<p align='center'> <img src='Images/elbow_curve_pca.PNG'></p>
 
 **Answer:** The best value for `k` when using the PCA data is 4.
 
@@ -26,9 +26,9 @@ In the Jupyter notebook you will find the code with the analysis that led to the
 
 **Question 5:** After visually analyzing the cluster analysis results, what is the impact of using fewer features to cluster the data using K-Means?
 
-<p align='center'> <img src='Images/composite_elbow.png'></p>
+<p align='center'> <img src='Images/composite_elbow.PNG'></p>
 
-<p align='center'> <img src='Images/composite_scatter.png'></p>
+<p align='center'> <img src='Images/composite_scatter.PNG'></p>
 
 **Answer:** Upon examining the elbow curves, it's evident that they share similar shapes and indicate an optimal number of clusters at k=4. However, when utilizing PCA data, the curve manifests a lower inertia from the outset, implying a denser grouping of data points within the reduced dimensional space.
 
